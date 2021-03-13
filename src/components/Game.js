@@ -61,6 +61,9 @@ class Game extends React.Component {
       </div>
     )
   }
+  componentDidMount() {
+    this.setCurrentTime()
+  }
 }
 
 export default Game;
